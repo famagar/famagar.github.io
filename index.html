@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>VIEJO OESTE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="inner-width">
+        <a href="#" class="logo"><img src="ViejoOeste.jpg" /></a>
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <nav class="navigation-menu">
+          <a href="#"><i class="fas fa-home home"></i> Inicio</a>
+          <a href="sub/tienda.html"
+            ><i class="fab fa-buffer works"></i> tienda</a
+          >
+          <a href="sub/contactos.html"
+            ><i class="fas fa-headset contact"></i> Contacto</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+      $(".menu-toggle-btn").click(function () {
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+      });
+    </script>
+
+    <br /><br /><br /><br /><br /><br />
+    <div id="slider">
+      <input type="radio" name="slider" id="slide1" checked />
+      <input type="radio" name="slider" id="slide2" />
+      <input type="radio" name="slider" id="slide3" />
+      <input type="radio" name="slider" id="slide4" />
+      <div id="slides">
+        <div id="overflow">
+          <div class="inner">
+            <div class="slide slide_1">
+              <div class="slide-content">
+                <h2>Slide 1</h2>
+              </div>
+            </div>
+            <div class="slide slide_2">
+              <div class="slide-content">
+                <h2>Slide 2</h2>
+              </div>
+            </div>
+            <div class="slide slide_3">
+              <div class="slide-content">
+                <h2>Slide 3</h2>
+              </div>
+            </div>
+            <div class="slide slide_4">
+              <div class="slide-content">
+                <h2>Slide 4</h2>
+                <p>Content for Slide 4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+      <div id="bullets">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-main">
+          <div class="footer-columna">
+            <h3>Dirección</h3>
+            
+            <span class="fa fa-map-marker">
+              <a class="maps" HREF="https://goo.gl/maps/XQsnXRWvNZbzsXRy9"> Cra. 10 # 8 - 46 </a>
+            </span><br />
+            <span class="fa fa-whatsapp">
+              <a class="maps" HREF="https://wa.me/573144317821"> 3144317821 </a>
+            </span><br />
+            <span class="fa fa-envelope"><p>NN</p></span><br />
+          </div>
+
+          <div class="footer-columna">
+            <h3>Sobre Nosotros</h3>
+            <p>
+              Queremos ser el puente y la puerta para que encuentres tu producto
+              ideal, la unica condicion es que prueben si les gusta
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
